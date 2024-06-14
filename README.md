@@ -12,3 +12,9 @@ go mod init github.com/mir-owahed/go-lang-app
 go build
 go test
 ```
+go run hello.go
+go build hello.go
+./hello (to run the executable)
+go build -o application hello.go
+```
+
