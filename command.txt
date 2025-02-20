@@ -68,3 +68,10 @@
    68  history > commnand.txt
    69  git add .
    70  history > command.txt
+   71  git add .
+   72  rm commnad.txt
+   73  rm commnand.txt
+   74  git add .
+   75  git commit -m "docker commands added"
+   76  git push
+   77  history > command.txt
