@@ -41,3 +41,30 @@
    41  docker logs ed8e8ee93c60
    42  history 
    43  history > command.txt
+   44  git add .
+   45  git commit -m "docker coomands added in command.txt"
+   46  git push
+   47  exit
+   48  docker images
+   49  docker ps
+   50  docker rmi owahed1/demo-app:go-app-v1
+   51  docker ps -a
+   52  docker rm ed8e8ee93c60
+   53  docker ps -a
+   54  docker rmi owahed1/demo-app:go-app-v1
+   55  ls
+   56  docker build -t go-app:v2 .
+   57  docker images
+   58  docker ps -a
+   59  docker exec -it c24a911803f6 pwd
+   60  docker run -d -p 8090:8000 go-app:v2
+   61  docker ps
+   62  docker exec -it 9ce7f9d7c731 pwd
+   63  docker exec -it 9ce7f9d7c731 ls -la
+   64  docker exec -it 9ce7f9d7c731 /bin/bash
+   65  docker exec -it 9ce7f9d7c731 /bash
+   66  docker exec -it 9ce7f9d7c731 bash
+   67  docker exec -it 9ce7f9d7c731 /src
+   68  history > commnand.txt
+   69  git add .
+   70  history > command.txt
